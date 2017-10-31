@@ -1,0 +1,42 @@
+<idea-plugin version="2">
+    <id>com.bolex.recitewords</id>
+    <name>ReciteWords</name>
+    <version>1.4</version>
+    <vendor email="823894716@qq.com" url="https://github.com/BolexLiu/ReciteWords">香脆的大鸡排</vendor>
+
+    <description>
+        <![CDATA[
+<html>这是一个翻译+记单词的插件，支持Linux、Mac、windows平台上在idea和AndroidStudio上运行<br>
+翻译历史记录将在当前项目的根目录上生成markdown文档。
+<a href="https://github.com/BolexLiu/ReciteWords"> openSource</a>
+选中你要翻译的单词或代码。alt+Q呼出。
+<p>将悬浮框改为弹出框，方便保存</p>
+      </html>
+      ]]>
+    </description>
+
+    <change-notes>
+    </change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="107.121"/>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <action id="ReciteWords" class="com.kong.recitewords.ReciteWords" text="ReciteWords">
+            <add-to-group group-id="EditMenu" anchor="first"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="alt Q"/>
+        </action>
+    </actions>
+
+</idea-plugin>
