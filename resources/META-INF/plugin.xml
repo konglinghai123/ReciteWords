@@ -1,8 +1,8 @@
 <idea-plugin version="2">
-    <id>com.bolex.recitewords</id>
+    <id>com.kong.recitewords</id>
     <name>ReciteWords</name>
     <version>1.4</version>
-    <vendor email="823894716@qq.com" url="https://github.com/BolexLiu/ReciteWords">香脆的大鸡排</vendor>
+    <vendor email="823894716@qq.com" url="https://github.com/konglinghai123/ReciteWords.git">小孔成像</vendor>
 
     <description>
         <![CDATA[
